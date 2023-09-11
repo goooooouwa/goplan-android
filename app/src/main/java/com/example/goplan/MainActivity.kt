@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         val myWebView: WebView = findViewById(R.id.webView)
         myWebView.webViewClient = WebViewClient()
         myWebView.settings.javaScriptEnabled = true
-        myWebView.loadUrl("https://goooooouwa.fun:8095/")
+        myWebView.loadUrl("https://goooooouwa.fun:8096/users/sign_in")
     }
 }
